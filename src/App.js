@@ -1,13 +1,13 @@
 import React from "react";
-import { Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes,Route } from "react-router-dom";
 import Profile from "./pages/Profile/Profile";
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Profile />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
