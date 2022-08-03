@@ -4,6 +4,15 @@ import bgcard from "../../assets/bg-pattern-card.svg";
 import imagevictor from "../../assets/image-victor.jpg";
 
 export default function Profile() {
+   var user = {
+    nome: 'Victor Crest',
+    idade: 26,
+    localidade: 'London',
+    numseguidores: '80K',
+    numlikes: '803K',
+    numseguindo: '1.4K'
+
+   }
   return (
     <Container>
       <Wrapper>
@@ -11,20 +20,20 @@ export default function Profile() {
         <Content>
           <img src={imagevictor} alt="Avantar" />
           <Name>
-            Victor Crest <span> 26 </span>{" "}
+            {user.nome} <span> {user.idade} </span>
           </Name>
-          <p>London</p>
+          <p>{user.localidade}</p>
           <Footer>
             <div>
-              <Num>80K</Num>
+              <Num>{user.numseguidores}</Num>
               <p>Followers</p>
             </div>
             <div>
-              <Num>803K</Num>
+              <Num>{user.numlikes}</Num>
               <p>Likes</p>
             </div>
             <div>
-              <Num>1.4K</Num>
+              <Num>{user.numseguindo}</Num>
               <p>Followers</p>
             </div>
           </Footer>
