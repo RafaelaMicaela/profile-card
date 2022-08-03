@@ -25,6 +25,6 @@ export const GlobalStyle = createGlobalStyle`
         background: url(${imgBackground}),url(${imgBackgroundBottom});
         background-repeat: no-repeat, no-repeat;
         background-position: right 48vw bottom 40vh, left 45vw top 44vh;
-        background-color: #339999;
+        background-color: hsl(185, 75%, 39%);
     }
 `;
