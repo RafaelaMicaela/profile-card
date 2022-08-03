@@ -4,7 +4,7 @@ import bgcard from "../../assets/bg-pattern-card.svg";
 import imagevictor from "../../assets/image-victor.jpg";
 
 export default function Profile() {
-   conts user = {
+   let user = {
     nome: 'Victor Crest',
     idade: 26,
     localidade: 'London',
