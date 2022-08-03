@@ -49,4 +49,7 @@ export const Num = styled.p`
     color: var(verydark);
     font-weight: 700;
     margin-bottom: 5px;
+    p{
+        color: var(darkgraysish)
+    }
 `
